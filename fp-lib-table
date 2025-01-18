@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "GH60_outline")(type "KiCad")(uri "${KIPRJMOD}/GH60_outline.pretty")(options "")(descr ""))
+  (lib (name "GH60_outline_without_bottom_mounting")(type "KiCad")(uri "${KIPRJMOD}/GH60_outline_without_bottom_mounting.pretty")(options "")(descr ""))
+  (lib (name "D_SOD-123_without_ref")(type "KiCad")(uri "${KIPRJMOD}/D_SOD-123_without_ref.pretty")(options "")(descr ""))
+  (lib (name "D_SOD-123_no_ref")(type "KiCad")(uri "${KIPRJMOD}/D_SOD-123_no_ref.pretty")(options "")(descr ""))
+)

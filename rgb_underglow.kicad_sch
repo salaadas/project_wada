@@ -1,0 +1,4838 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3b9a0a2a-d6de-4c8a-85d1-a48275ae5373")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xGxx:74AHCT1G125"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AHCT1G125"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Gate Buff Tri-State LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT* SG-*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74AHCT1G125_0_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74AHCT1G125_1_1"
+				(pin input inverted
+					(at 0 10.16 270)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_marbastlib-various:WS2812_2020"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812_2020"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Mini addressable 2020"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812_2020_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812_2020_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812_2020_1_1"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 48.26 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16349973-5dbd-4ec7-b637-7daddd0bf8ef")
+	)
+	(junction
+		(at 57.15 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16714b4b-bcaa-4ab3-88ce-f52530fb4aca")
+	)
+	(junction
+		(at 39.37 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b3567c9-f387-442e-a831-9e961623f96d")
+	)
+	(junction
+		(at 66.04 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c4bed2f-01f9-490d-8c01-f8033b8bf41f")
+	)
+	(junction
+		(at 74.93 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fe632ba-3edc-4679-84d6-17032d35342a")
+	)
+	(junction
+		(at 123.19 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2206dc90-613c-48ff-8166-7262d1d700d6")
+	)
+	(junction
+		(at 46.99 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24b8d6b6-0629-4163-bba1-f78382c421a6")
+	)
+	(junction
+		(at 138.43 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2990fdc9-f84f-40da-9b21-91c4798fa758")
+	)
+	(junction
+		(at 107.95 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "325b700e-ec8a-46b2-9ea6-83d2453f3b5f")
+	)
+	(junction
+		(at 48.26 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42b8cf42-3e28-402a-88a4-eb2327427656")
+	)
+	(junction
+		(at 138.43 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47e1e2e3-11a7-47c8-bb87-51040e36fd06")
+	)
+	(junction
+		(at 62.23 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a6c39f2-a128-49b4-9d4e-5ad4112abee6")
+	)
+	(junction
+		(at 83.82 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c05a24b-8182-4799-ab4b-fe35760e21d4")
+	)
+	(junction
+		(at 39.37 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fdbe348-953e-4c8e-b346-5fc1d6731d4b")
+	)
+	(junction
+		(at 107.95 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52f19e8a-8761-472d-9d01-71bcd6007530")
+	)
+	(junction
+		(at 39.37 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5951e04a-49d5-469c-b143-356e9b47d594")
+	)
+	(junction
+		(at 92.71 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a3c8c44-e58d-42ca-930e-8be935b661dd")
+	)
+	(junction
+		(at 74.93 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ced7aa1-3385-4d9a-b268-b916ed1f86a2")
+	)
+	(junction
+		(at 48.26 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e99fb84-4b68-451a-9e5a-5e9732828252")
+	)
+	(junction
+		(at 123.19 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ff0d3db-aad7-4c9c-8b9e-5cf2c019ee72")
+	)
+	(junction
+		(at 83.82 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6303cb16-bd49-4881-aefa-9f3a349eb900")
+	)
+	(junction
+		(at 46.99 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d0e9533-c360-4a3d-a9a5-b1b751b9781d")
+	)
+	(junction
+		(at 57.15 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73611d02-a204-4aa0-9b89-79f93c987769")
+	)
+	(junction
+		(at 77.47 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "737a8203-2342-43d9-9a39-52852b214d1e")
+	)
+	(junction
+		(at 66.04 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74217d07-0016-4358-91e7-5b9d214eee2e")
+	)
+	(junction
+		(at 123.19 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "769bf9d3-0bbe-4c9a-8e45-3de6141792e2")
+	)
+	(junction
+		(at 57.15 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7982ecf7-9e0c-437c-9041-b70ab6d310b2")
+	)
+	(junction
+		(at 66.04 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c087019-3426-4e70-a47e-24814dd94b7f")
+	)
+	(junction
+		(at 138.43 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87465aee-2100-41ca-9353-a7640be76a5d")
+	)
+	(junction
+		(at 92.71 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a23181c-5430-47c1-b493-f400af03839e")
+	)
+	(junction
+		(at 74.93 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2960864-3955-4e76-9c9e-be1cfef01c21")
+	)
+	(junction
+		(at 66.04 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a311958c-ccce-407c-bc47-f03ff61770ac")
+	)
+	(junction
+		(at 46.99 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a32858c5-8297-40f3-9d0c-dfbdc751024d")
+	)
+	(junction
+		(at 92.71 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3ff2dc7-24c3-4e6f-b488-590d73fefad4")
+	)
+	(junction
+		(at 92.71 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a490725a-580e-492b-9086-4adc8ae10f88")
+	)
+	(junction
+		(at 83.82 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab6abd44-4eea-4e89-aacb-b57a0499db20")
+	)
+	(junction
+		(at 92.71 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac17f4f5-2bad-4d48-9254-2d2697a1cfe5")
+	)
+	(junction
+		(at 123.19 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac64dea0-86dc-4691-8583-a884fa82429f")
+	)
+	(junction
+		(at 57.15 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b01966cd-02d3-499e-b75b-9724387abd11")
+	)
+	(junction
+		(at 62.23 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b091f3a3-6cbf-4d04-af37-0daa5a321445")
+	)
+	(junction
+		(at 92.71 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b297e137-20ab-4456-ae32-6f5eab79f96b")
+	)
+	(junction
+		(at 74.93 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4797b5e-51f2-4492-92d8-808213ae61c5")
+	)
+	(junction
+		(at 77.47 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b567ccd3-143e-4779-b2ae-673ab68c4f10")
+	)
+	(junction
+		(at 62.23 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc688863-c313-49b4-8005-efe5b01a462e")
+	)
+	(junction
+		(at 107.95 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2d16665-8c16-42f3-8a08-6b10023b4776")
+	)
+	(junction
+		(at 77.47 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c34189fc-1e41-4841-bba9-4525a1c885fc")
+	)
+	(junction
+		(at 62.23 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c548e71d-77cc-44fb-9ffa-4d49c8e5e295")
+	)
+	(junction
+		(at 92.71 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9ae3c2f-06bf-4f8a-905c-3f88b3debb25")
+	)
+	(junction
+		(at 48.26 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0e5c12a-5b17-4e3a-831d-2d7376a08678")
+	)
+	(junction
+		(at 46.99 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e761fb5a-3815-4f54-b9a1-a173c1a3d8e1")
+	)
+	(junction
+		(at 92.71 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed7e656b-5735-47b7-b3a0-fd89fce02113")
+	)
+	(junction
+		(at 77.47 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8b9f6c3-4cf3-43ac-bdca-a9ac53d35388")
+	)
+	(junction
+		(at 107.95 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9002f50-8370-41eb-abf9-b5ecd7d7af0d")
+	)
+	(junction
+		(at 138.43 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa12cb88-0499-43d2-a6d9-2f7e430d20f1")
+	)
+	(junction
+		(at 83.82 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe26bcd3-4c35-47b2-bbfb-3d16f87ccc24")
+	)
+	(junction
+		(at 39.37 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffb41224-5211-4ee3-86ca-6899b3fbf3af")
+	)
+	(no_connect
+		(at 161.29 114.3)
+		(uuid "3902a3be-ef69-42df-af78-7c8eb1c72fd9")
+	)
+	(wire
+		(pts
+			(xy 24.13 173.99) (xy 24.13 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "030a8f89-be11-47a7-a509-24282e7e3247")
+	)
+	(wire
+		(pts
+			(xy 123.19 121.92) (xy 138.43 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0468770c-a33e-4945-86da-4f23da6c2b23")
+	)
+	(wire
+		(pts
+			(xy 43.18 22.86) (xy 43.18 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e06b83-033c-4641-9295-c29107b05b85")
+	)
+	(wire
+		(pts
+			(xy 107.95 121.92) (xy 123.19 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077aabb2-1860-4488-bb46-e6f7ed0b7b3c")
+	)
+	(wire
+		(pts
+			(xy 138.43 121.92) (xy 153.67 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12861ea2-0b72-4f7f-85eb-37a9dd5ca2fb")
+	)
+	(wire
+		(pts
+			(xy 123.19 82.55) (xy 138.43 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16fc751b-2dac-4db7-bfc3-258b0799f18a")
+	)
+	(wire
+		(pts
+			(xy 57.15 152.4) (xy 66.04 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f127c8-51d1-4da1-9e54-ffc887dc9ed6")
+	)
+	(wire
+		(pts
+			(xy 92.71 67.31) (xy 107.95 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e86536a-a991-4d43-8b53-779f2c0aa789")
+	)
+	(wire
+		(pts
+			(xy 138.43 67.31) (xy 153.67 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f67d5a9-26f0-40bf-83a9-66516d6fbfdf")
+	)
+	(wire
+		(pts
+			(xy 24.13 176.53) (xy 39.37 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24460460-e32e-470a-ba08-9820bf7afa63")
+	)
+	(wire
+		(pts
+			(xy 48.26 157.48) (xy 57.15 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "246575f0-d4ed-4220-af07-11e863754334")
+	)
+	(wire
+		(pts
+			(xy 62.23 82.55) (xy 77.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253bb9bf-de02-46e6-a393-ae5568671d8b")
+	)
+	(wire
+		(pts
+			(xy 62.23 121.92) (xy 77.47 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0b47b9-e981-48ed-81b1-51624b10e330")
+	)
+	(wire
+		(pts
+			(xy 31.75 82.55) (xy 46.99 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331ed93b-47f1-457c-85e1-a3231e05fb04")
+	)
+	(wire
+		(pts
+			(xy 48.26 17.78) (xy 48.26 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3474c14a-fdbc-4623-99f3-ec146298c46a")
+	)
+	(wire
+		(pts
+			(xy 138.43 106.68) (xy 153.67 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ef49e4-66eb-42de-8c2a-e43825c68d07")
+	)
+	(wire
+		(pts
+			(xy 92.71 181.61) (xy 101.6 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "396458a1-ff6d-4485-a5b2-0f9d35aac8f6")
+	)
+	(wire
+		(pts
+			(xy 31.75 67.31) (xy 46.99 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb01efb-7e9d-4ddd-b918-a38365ba1ffe")
+	)
+	(wire
+		(pts
+			(xy 123.19 67.31) (xy 138.43 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41711a83-9b13-4af2-bf95-eadd85ca3428")
+	)
+	(wire
+		(pts
+			(xy 77.47 106.68) (xy 92.71 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b27071-6cd9-43da-b7e6-9a20e2ffa88e")
+	)
+	(wire
+		(pts
+			(xy 83.82 176.53) (xy 92.71 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e87737-6ee2-4edd-a18b-15083010b510")
+	)
+	(wire
+		(pts
+			(xy 31.75 121.92) (xy 46.99 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ca68ec-8d75-4e27-aac4-90315386913d")
+	)
+	(wire
+		(pts
+			(xy 31.75 124.46) (xy 31.75 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47baa743-a1b4-4a51-864a-4054ccdf4b8b")
+	)
+	(wire
+		(pts
+			(xy 83.82 181.61) (xy 92.71 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "496c423c-a00a-4f72-9681-f298534174f6")
+	)
+	(wire
+		(pts
+			(xy 171.45 92.71) (xy 20.32 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4add6a50-e372-4922-952d-8a39ebfac722")
+	)
+	(wire
+		(pts
+			(xy 123.19 106.68) (xy 138.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c57b985-3ab3-47c1-b264-9c78fa1d7ade")
+	)
+	(wire
+		(pts
+			(xy 39.37 176.53) (xy 48.26 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568a1f71-2d40-4992-aeda-aeb4be45f4c6")
+	)
+	(wire
+		(pts
+			(xy 31.75 63.5) (xy 31.75 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570f6afc-a5ea-45e5-80e6-e442463d950f")
+	)
+	(wire
+		(pts
+			(xy 24.13 152.4) (xy 39.37 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573b6e4d-6dba-47b4-95c2-f770b6cef387")
+	)
+	(wire
+		(pts
+			(xy 31.75 104.14) (xy 31.75 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd55777-506c-4723-8349-f67f8f44c962")
+	)
+	(wire
+		(pts
+			(xy 46.99 82.55) (xy 62.23 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c79487c-278a-4d81-ad8c-457ffe6eff79")
+	)
+	(wire
+		(pts
+			(xy 24.13 181.61) (xy 39.37 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5abef1-e224-41db-b9d1-2bd3f1c3278d")
+	)
+	(wire
+		(pts
+			(xy 74.93 152.4) (xy 83.82 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659d7bb2-56fc-42c6-9421-5b355a1f5494")
+	)
+	(wire
+		(pts
+			(xy 83.82 152.4) (xy 92.71 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674422db-f6ad-434a-bf20-55f3ac32f9fd")
+	)
+	(wire
+		(pts
+			(xy 77.47 82.55) (xy 92.71 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b455b1-be21-4e23-b878-0745f9e684e8")
+	)
+	(wire
+		(pts
+			(xy 46.99 67.31) (xy 62.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2f62aa-4d04-49d4-ab77-464fcaf44a01")
+	)
+	(wire
+		(pts
+			(xy 24.13 160.02) (xy 24.13 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c84fd83-4f82-47b7-8547-f65765b4d853")
+	)
+	(wire
+		(pts
+			(xy 31.75 85.09) (xy 31.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c907395-6c6e-4df4-9d9d-c6bb4c879599")
+	)
+	(wire
+		(pts
+			(xy 66.04 181.61) (xy 74.93 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f919d95-3774-480b-a030-0b4257bf3159")
+	)
+	(wire
+		(pts
+			(xy 39.37 181.61) (xy 48.26 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b70937-1a1e-4ef4-a30c-6d58cc780000")
+	)
+	(wire
+		(pts
+			(xy 92.71 176.53) (xy 101.6 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777996d5-9c3f-4937-aece-7a3d4b4d0555")
+	)
+	(wire
+		(pts
+			(xy 20.32 114.3) (xy 39.37 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9eb85f-35ae-45e7-aa31-438c30cc2d2a")
+	)
+	(wire
+		(pts
+			(xy 20.32 92.71) (xy 20.32 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1b9601-ca39-4ecb-ae1e-a5b79541dd27")
+	)
+	(wire
+		(pts
+			(xy 48.26 181.61) (xy 57.15 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d14152-ddb2-4029-9a44-b68534d906ba")
+	)
+	(wire
+		(pts
+			(xy 92.71 106.68) (xy 107.95 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82290545-b57d-4b05-9e62-6c460b9de037")
+	)
+	(wire
+		(pts
+			(xy 24.13 149.86) (xy 24.13 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83374831-7572-4a53-b9fb-4d33d45bb1b7")
+	)
+	(wire
+		(pts
+			(xy 138.43 82.55) (xy 153.67 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8407f21d-768b-4744-a46c-5b94fc2c41f7")
+	)
+	(wire
+		(pts
+			(xy 92.71 157.48) (xy 101.6 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f1da8b-bf4f-4dfd-8532-82d550cfcf32")
+	)
+	(wire
+		(pts
+			(xy 57.15 181.61) (xy 66.04 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858f955d-6369-4fe3-a3bf-ad8414b92341")
+	)
+	(wire
+		(pts
+			(xy 171.45 74.93) (xy 171.45 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87427d82-fb19-48a8-9cce-d83593e16ede")
+	)
+	(wire
+		(pts
+			(xy 46.99 106.68) (xy 62.23 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b64026-0c58-4f0c-961a-f9816c90bbd1")
+	)
+	(wire
+		(pts
+			(xy 24.13 184.15) (xy 24.13 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87eb4ae0-454a-49cf-83ff-a4c62f608773")
+	)
+	(wire
+		(pts
+			(xy 107.95 67.31) (xy 123.19 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89096cad-dcb8-4fe7-81da-d602b7152792")
+	)
+	(wire
+		(pts
+			(xy 66.04 157.48) (xy 74.93 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4b33bd-0d81-4ef0-97c5-6ff7bdc2f8d6")
+	)
+	(wire
+		(pts
+			(xy 92.71 121.92) (xy 107.95 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976b4b26-6ed1-473b-a23b-039075fd52d1")
+	)
+	(wire
+		(pts
+			(xy 24.13 157.48) (xy 39.37 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "980b0a06-9d72-4d75-98b9-fa15b303ef1f")
+	)
+	(wire
+		(pts
+			(xy 83.82 157.48) (xy 92.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98476c97-a94e-4ad5-8eae-0a961cbf58dc")
+	)
+	(wire
+		(pts
+			(xy 74.93 176.53) (xy 83.82 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9894ff44-9c9e-4943-95a5-c6c895fa3aba")
+	)
+	(wire
+		(pts
+			(xy 34.29 74.93) (xy 39.37 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ead06c2-5e50-46a2-ae8a-766c6085475d")
+	)
+	(wire
+		(pts
+			(xy 66.04 152.4) (xy 74.93 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f3d6518-08c3-4e83-95cb-b5939511304c")
+	)
+	(wire
+		(pts
+			(xy 62.23 106.68) (xy 77.47 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a060a1ea-273e-4f7d-9d9c-c812606b0335")
+	)
+	(wire
+		(pts
+			(xy 107.95 82.55) (xy 123.19 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c81695-c601-4745-a60b-91ef5cb97176")
+	)
+	(wire
+		(pts
+			(xy 46.99 121.92) (xy 62.23 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a681a861-17cd-4019-a7a5-9ce3da1020bc")
+	)
+	(wire
+		(pts
+			(xy 48.26 176.53) (xy 57.15 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6927578-25c5-4367-ab5d-28061939213a")
+	)
+	(wire
+		(pts
+			(xy 74.93 157.48) (xy 83.82 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d9b488-42f6-4ed4-a3c5-3f60d92dfcb1")
+	)
+	(wire
+		(pts
+			(xy 31.75 106.68) (xy 46.99 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfc77af-9a35-44c7-9969-6e632fa7ed87")
+	)
+	(wire
+		(pts
+			(xy 39.37 152.4) (xy 48.26 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e8f6c7-22c1-414a-8d63-07ac280ab09c")
+	)
+	(wire
+		(pts
+			(xy 39.37 157.48) (xy 48.26 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be255588-0aa0-4ab3-b3aa-75510ad6d40e")
+	)
+	(wire
+		(pts
+			(xy 48.26 152.4) (xy 57.15 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c037062f-1d65-43c4-987d-06d2fbcac21c")
+	)
+	(wire
+		(pts
+			(xy 57.15 157.48) (xy 66.04 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15e9281-3b82-4652-9091-140839400281")
+	)
+	(wire
+		(pts
+			(xy 77.47 121.92) (xy 92.71 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c210153c-f0c4-4e2e-b33b-cd93b5af9e17")
+	)
+	(wire
+		(pts
+			(xy 66.04 176.53) (xy 74.93 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c823a406-a754-4087-bcd1-789baeace37f")
+	)
+	(wire
+		(pts
+			(xy 43.18 17.78) (xy 48.26 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d5802d-e803-4a54-9027-edaf7b1c6737")
+	)
+	(wire
+		(pts
+			(xy 92.71 152.4) (xy 101.6 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b7e66d-bfdc-4839-9162-ac2448e6e54c")
+	)
+	(wire
+		(pts
+			(xy 77.47 67.31) (xy 92.71 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da294541-1955-45b6-8571-df9a2b9ca1d3")
+	)
+	(wire
+		(pts
+			(xy 74.93 181.61) (xy 83.82 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcfb2ad7-44ef-4d57-95de-f31af35054dc")
+	)
+	(wire
+		(pts
+			(xy 92.71 82.55) (xy 107.95 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98f44b9-82a8-4e48-997d-c33eb9ac34d8")
+	)
+	(wire
+		(pts
+			(xy 57.15 176.53) (xy 66.04 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed65a9d9-67b6-4ce7-b4f7-53b84f2756d0")
+	)
+	(wire
+		(pts
+			(xy 62.23 67.31) (xy 77.47 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee207685-d380-4abf-9dfa-f29a384f8395")
+	)
+	(wire
+		(pts
+			(xy 161.29 74.93) (xy 171.45 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18f6d4c-4b1f-42a6-a777-ddc5d20e9675")
+	)
+	(wire
+		(pts
+			(xy 107.95 106.68) (xy 123.19 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb968486-31d7-4f2d-9266-b06d25076a19")
+	)
+	(rectangle
+		(start 13.97 135.255)
+		(end 133.985 190.5)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0f5c9a3e-1017-426a-8779-6434f0ec6329)
+	)
+	(rectangle
+		(start 13.97 48.895)
+		(end 181.61 131.445)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7ef1e5b2-b7ba-4cc7-b128-51cde051d8c1)
+	)
+	(rectangle
+		(start 13.97 14.605)
+		(end 69.215 46.355)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c7e26b21-c90b-48d6-9a2a-abdd27c11e71)
+	)
+	(text "LEDs chain"
+		(exclude_from_sim no)
+		(at 13.97 52.07 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cdd9c1a-73f0-4751-b92a-12210c7702c0")
+	)
+	(text "Logic stepper"
+		(exclude_from_sim no)
+		(at 13.97 17.526 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b04c0b5-4cb5-4a6e-a181-117503d3c04f")
+	)
+	(text "Capacitors for the LEDs"
+		(exclude_from_sim no)
+		(at 13.97 138.684 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e416c0fa-8207-4447-9339-8376e8cc42dd")
+	)
+	(global_label "RGB_LED"
+		(shape input)
+		(at 27.94 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39555017-8951-494f-a640-4a2c314fc6ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.7301 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB"
+		(shape output)
+		(at 55.88 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "411e5048-ea42-464d-8020-58ab52753f5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.6752 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 24.13 149.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6af92cf8-4541-43df-a869-68c48263aed4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.13 143.2462 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB"
+		(shape input)
+		(at 34.29 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9461f39d-09b7-44b1-9736-cfec157fccc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.4948 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 38.1 22.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abb6a679-20e5-4d20-9379-24e5f0caf450")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 16.2462 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 24.13 173.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b617e31e-87b6-4fdb-a1a1-b1433c094c4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.13 167.3762 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 31.75 63.5 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0c8a840-c498-485d-ac26-130257d85408")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.75 56.8862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 31.75 104.14 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0da218d-b925-430b-9ecd-77eb8cab99d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.75 97.5262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 138.43 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0273628d-1313-4bc0-b9eb-150a67a59b5c")
+		(property "Reference" "LED15"
+			(at 138.684 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 138.43 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 139.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 140.97 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 138.43 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "56481e2c-0cab-47df-9df7-341abe80fc0f")
+		)
+		(pin "1"
+			(uuid "8465fe92-74ec-4d5b-95ce-9075a927db58")
+		)
+		(pin "2"
+			(uuid "4f314b90-ce9a-4cd3-9003-ce60592f1736")
+		)
+		(pin "3"
+			(uuid "23873068-27e9-4dd8-bd24-b951df3e6b15")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 92.71 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "123e038a-10f3-4931-a81b-c928c2e5805a")
+		(property "Reference" "LED4"
+			(at 92.964 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 92.71 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 93.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 95.25 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 92.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d1d1a019-68d2-4ed3-9d2f-059ff31ea71e")
+		)
+		(pin "1"
+			(uuid "5df74afa-bb3a-4663-bab8-374de132652b")
+		)
+		(pin "2"
+			(uuid "e9d57b22-436a-4a69-a06b-bf5244632d43")
+		)
+		(pin "3"
+			(uuid "850528a0-122b-4b03-8cc3-45c0b803f2b0")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 46.99 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1258f9bb-acbd-4280-a35e-a281ca1d932f")
+		(property "Reference" "LED9"
+			(at 47.244 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 46.99 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 48.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 49.53 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 46.99 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d2693352-f639-4901-9fff-467904f13fb4")
+		)
+		(pin "1"
+			(uuid "19c23fdc-10b5-43d1-bb58-f1589bb572aa")
+		)
+		(pin "2"
+			(uuid "9fc55abb-fefc-4550-9dfc-920ecca87096")
+		)
+		(pin "3"
+			(uuid "cc0a1212-e5d0-4f7f-9c2e-033425dad4bb")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 39.37 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1497bb17-4ea2-4edb-8c8e-8356c995d057")
+		(property "Reference" "C31"
+			(at 37.592 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 37.592 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 39.37 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 39.37 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7898f71b-d87e-4682-8bc2-9dae0729b2ba")
+		)
+		(pin "1"
+			(uuid "43e4bb48-acc7-449b-99a1-3f39a1740b9a")
+		)
+		(instances
+			(project ""
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 107.95 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "158756c2-3e43-433e-bd45-2fd686cf9f6c")
+		(property "Reference" "LED5"
+			(at 108.204 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 107.95 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 109.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 110.49 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 107.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "940929c7-fb86-4bd1-a29f-95bef963ce05")
+		)
+		(pin "1"
+			(uuid "216443fd-bd87-4a4f-8940-a6606368031b")
+		)
+		(pin "2"
+			(uuid "50c4172a-db50-4169-a873-cfd8afd2bc23")
+		)
+		(pin "3"
+			(uuid "172f9cfb-38b6-4ae0-8775-eb3b2d921f10")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 62.23 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18128c09-c858-4ea0-b0a4-6a424aa87086")
+		(property "Reference" "LED10"
+			(at 62.484 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 62.23 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 63.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 64.77 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 62.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7fb8ec49-bf73-4f04-8bd2-db3d392eea02")
+		)
+		(pin "1"
+			(uuid "2d1ecc4e-0d61-48a5-acef-3ffb353a9cad")
+		)
+		(pin "2"
+			(uuid "35a11d13-8640-481d-8a7b-4d57b6f2f9fc")
+		)
+		(pin "3"
+			(uuid "46a46d13-78af-43e7-8b9d-d21a8a9f789e")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 57.15 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18615404-4bbe-41aa-981e-f5d6ae943680")
+		(property "Reference" "C41"
+			(at 55.372 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 55.372 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 57.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 57.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a753fc6-2233-42a8-8b6a-6fd2c44f7772")
+		)
+		(pin "1"
+			(uuid "47ecbf48-1edf-448d-8b9b-1d9726a4b288")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b99240a-b6e8-4da9-a001-0b1084e06530")
+		(property "Reference" "#PWR038"
+			(at 24.13 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 188.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eb7f956-05cc-442b-9f40-2ab49bd21f32")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 92.71 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cc9f502-72f6-400d-ac8d-a2fe8780ab90")
+		(property "Reference" "LED12"
+			(at 92.964 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 92.71 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 93.98 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 95.25 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 92.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "49f1442b-329f-4681-b623-c7ce6edbb4d5")
+		)
+		(pin "1"
+			(uuid "c8368807-a53e-419e-8bba-0f4af6c70b0d")
+		)
+		(pin "2"
+			(uuid "99713516-5db0-4600-896d-332c18a5c10c")
+		)
+		(pin "3"
+			(uuid "83715881-eb90-4bf0-913e-dab6a1c0f7f3")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 92.71 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "248e227e-15dc-4983-8e0d-73303b4762f0")
+		(property "Reference" "C37"
+			(at 90.932 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 90.932 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 92.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 92.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5a33d10-ffb1-48ed-a88b-796030321507")
+		)
+		(pin "1"
+			(uuid "53c3442a-5b79-432a-a762-af75ecf8eccf")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 153.67 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25f4d87c-46f8-4bf9-bbcb-218223733224")
+		(property "Reference" "LED8"
+			(at 153.924 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 153.67 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 156.21 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a344e6f1-105b-411c-9f0f-b93fb272eb44")
+		)
+		(pin "1"
+			(uuid "75d62880-c474-47a2-956b-bd3cbd77a25e")
+		)
+		(pin "2"
+			(uuid "6c514b6d-193b-44f4-90f1-cb55d3a1cfbe")
+		)
+		(pin "3"
+			(uuid "52f0f67e-e0d2-4565-b21d-45165ce7e3d9")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 123.19 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ac456e1-1fe1-4de5-96ef-4fc24a30d17e")
+		(property "Reference" "LED6"
+			(at 123.444 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 123.19 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 125.73 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 123.19 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a4587ab3-b000-4c10-86c2-8bab76a7545f")
+		)
+		(pin "1"
+			(uuid "d4c7b26d-237f-4173-8fbd-a1317b2d7418")
+		)
+		(pin "2"
+			(uuid "ef38dbb5-7abe-484d-82d2-c2f663f99f62")
+		)
+		(pin "3"
+			(uuid "d5aa52f3-e90a-4ae1-9fec-6480db2b347a")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 39.37 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c5390c4-21f4-4682-a76e-dac41afe3ed2")
+		(property "Reference" "C39"
+			(at 37.592 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 37.592 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 39.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 39.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41eb3d76-2d24-43d0-9781-9826b52bdc98")
+		)
+		(pin "1"
+			(uuid "2db6dec1-81a2-4f03-af2f-0e441e004194")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 57.15 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34600e1f-52d6-4eaa-843e-857f8e2f06d3")
+		(property "Reference" "C33"
+			(at 55.372 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 55.372 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 57.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 57.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94c59b06-1652-4fa2-8786-86353e135d31")
+		)
+		(pin "1"
+			(uuid "360db621-f838-4f82-bad0-84dc01d95fd5")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 101.6 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "398b9283-b365-429c-8fe8-16ec756c1708")
+		(property "Reference" "C46"
+			(at 99.822 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 99.822 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3598d50b-96de-43f0-a60f-0d4490e97023")
+		)
+		(pin "1"
+			(uuid "1e58623b-6e2e-48c6-be6d-8cd56b836a05")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 92.71 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39a566bf-c21c-43d5-a4ba-e0efb8cf2982")
+		(property "Reference" "C45"
+			(at 90.932 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 90.932 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 92.71 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 92.71 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6530a8a0-25b1-4b3c-b586-87b2409e532e")
+		)
+		(pin "1"
+			(uuid "254c195c-9759-4ad0-9fc3-939c3d2ae6fd")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 107.95 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3eea6635-de30-4f23-af6f-6090a756c97e")
+		(property "Reference" "LED13"
+			(at 108.204 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 107.95 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 109.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 110.49 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3d021232-1a0e-42bc-9196-dde3a2df4209")
+		)
+		(pin "1"
+			(uuid "6422e6cb-7d36-434c-a99d-a79bc6b88bfc")
+		)
+		(pin "2"
+			(uuid "f35a566c-b459-45ab-9bc4-d369c1463bd0")
+		)
+		(pin "3"
+			(uuid "ebb41dc2-bf5f-4078-8420-0a9f867919af")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 48.26 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6207f388-b0e8-4aec-933d-78813a2c91aa")
+		(property "Reference" "C40"
+			(at 46.482 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 46.482 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 48.26 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 48.26 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a578e7a-4071-4cab-a8aa-1bc01d25046d")
+		)
+		(pin "1"
+			(uuid "967b982b-6d7a-408a-b78b-3640bdf00e80")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "626dae57-6cf9-4315-be0e-edbe21686425")
+		(property "Reference" "#PWR039"
+			(at 38.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.656 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4df7de30-129b-4ea5-9c6a-05eb27a18427")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 46.99 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65380512-9e52-4aab-be51-2eb75e8c2973")
+		(property "Reference" "LED1"
+			(at 47.244 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 46.99 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 48.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 49.53 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2a21eca0-f5fc-4506-9516-d2ce71195f15")
+		)
+		(pin "1"
+			(uuid "30bc78f1-035e-4fa7-8067-4ebbf9434e76")
+		)
+		(pin "2"
+			(uuid "0659f8e9-7fb0-4a83-b639-beffd1a98936")
+		)
+		(pin "3"
+			(uuid "ee50f587-58f7-4d68-8dd0-a5bbdcb2bd03")
+		)
+		(instances
+			(project ""
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 48.26 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75d4d454-033a-4798-8c43-5dcebec94d69")
+		(property "Reference" "C32"
+			(at 46.482 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 46.482 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b57bcb09-1c3b-407c-b4c7-b3ae0bc77cbc")
+		)
+		(pin "1"
+			(uuid "7e9b5471-0447-43e4-911e-8273230ac32a")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 66.04 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8541e41e-54b8-4620-8a7d-4d372234c396")
+		(property "Reference" "C34"
+			(at 64.262 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 64.262 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 66.04 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 66.04 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44dba6e5-1938-434a-b368-4ed4225e90e7")
+		)
+		(pin "1"
+			(uuid "af6c758c-169c-42d1-9e42-bf5c8047e401")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 74.93 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b81be01-3363-4537-ae7a-68c4f8556047")
+		(property "Reference" "C43"
+			(at 73.152 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 73.152 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 74.93 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 74.93 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35c8653b-3d63-4bb3-a84b-f29145e8d794")
+		)
+		(pin "1"
+			(uuid "c7bd5050-a1f0-41b6-a385-c85c24ca5113")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 123.19 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90b3db91-dc9f-44e4-a3ba-04f07a051c7c")
+		(property "Reference" "LED14"
+			(at 123.444 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 123.19 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 125.73 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 123.19 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f58c0bdf-4331-4417-bea7-901f37bbab29")
+		)
+		(pin "1"
+			(uuid "9ebd6709-693e-4356-ac21-20f471ab47ac")
+		)
+		(pin "2"
+			(uuid "da738978-9af3-40db-8ef8-9e06e636bcfd")
+		)
+		(pin "3"
+			(uuid "b0bbae56-4a27-41ff-b6e1-963401227c14")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9678810b-36d7-4011-b2b1-57b52b5ea4c2")
+		(property "Reference" "#PWR037"
+			(at 24.13 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 164.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97e3c6a5-8298-4928-b18f-141714237853")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AHCT1G125")
+		(at 43.18 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a04e8eac-011c-46c0-ba2d-cff95fc45c53")
+		(property "Reference" "U8"
+			(at 55.88 26.7014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT1G125"
+			(at 55.88 29.2414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 43.18 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 43.18 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 43.18 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "157bcda3-e6a9-4296-b8f2-6abfbdf90a73")
+		)
+		(pin "1"
+			(uuid "90dca189-3965-4994-a3a0-1db3a9749363")
+		)
+		(pin "4"
+			(uuid "c70f1a3a-e3ab-468c-abc7-b02181c2d5eb")
+		)
+		(pin "5"
+			(uuid "1aca39cf-1f24-4c4a-bd78-932a045c24f1")
+		)
+		(pin "2"
+			(uuid "9d7e9110-8ab1-421c-a6c7-769685dae990")
+		)
+		(instances
+			(project ""
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 66.04 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c542ea21-17f2-4e28-8180-1951083389e8")
+		(property "Reference" "C42"
+			(at 64.262 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 64.262 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 66.04 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 66.04 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6488945a-b561-42a1-8644-f82531d77ed3")
+		)
+		(pin "1"
+			(uuid "e7f56841-a774-4fae-8507-fb05ab4e2155")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 62.23 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5534134-441a-4d02-a1a0-5dc0355f3d56")
+		(property "Reference" "LED2"
+			(at 62.484 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 62.23 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 64.77 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f6702320-047a-498a-aab7-4ea750cd6f0f")
+		)
+		(pin "1"
+			(uuid "6b4efa31-4eb7-413d-aa07-cf24fe278d82")
+		)
+		(pin "2"
+			(uuid "0ed607d4-b55b-49c1-aed4-e936ceb5f3b4")
+		)
+		(pin "3"
+			(uuid "7f144e7d-3bc6-4e7c-adf2-08055196fa6e")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 101.6 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da552de1-86c1-4e38-a769-82e8e14c7ea8")
+		(property "Reference" "C38"
+			(at 99.822 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 99.822 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 101.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 101.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc18ce1a-de1c-45cf-aa0e-c63f93dfae4c")
+		)
+		(pin "1"
+			(uuid "930c85d8-7490-45d2-ad7a-259bc932d4bf")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 153.67 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4aef5f3-425c-4022-8655-a555a0051b8c")
+		(property "Reference" "LED16"
+			(at 153.924 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 153.67 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 154.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 156.21 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9a1a8262-bce0-453c-a138-139391ab2e34")
+		)
+		(pin "1"
+			(uuid "ca372048-a135-42eb-b80b-14ce91354981")
+		)
+		(pin "2"
+			(uuid "495fd89d-cfb7-4389-8d43-0d9e4fde8de1")
+		)
+		(pin "3"
+			(uuid "a474e195-b0c3-44e1-838c-906b8f622a35")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6a11e32-1d46-4b3b-aaa9-e4377e3b5804")
+		(property "Reference" "#PWR032"
+			(at 48.26 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ba063f5-8283-431b-84ba-36a35faed18f")
+		)
+		(instances
+			(project ""
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 138.43 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e85cb0fe-ecda-4f1e-8eda-53cf9cbf5380")
+		(property "Reference" "LED7"
+			(at 138.684 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 138.43 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 139.7 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 140.97 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 138.43 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3359446a-ede5-4123-9c11-c8687702ead8")
+		)
+		(pin "1"
+			(uuid "f22c1a94-38f5-49ed-8720-3072d4d87189")
+		)
+		(pin "2"
+			(uuid "87f6b179-455e-49ee-a2ab-66aea81386b5")
+		)
+		(pin "3"
+			(uuid "70bc6d27-6927-4e5f-adb2-306484a9573c")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 74.93 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9195112-566a-410c-a884-336a1f6a1364")
+		(property "Reference" "C35"
+			(at 73.152 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 73.152 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d4eb789-d71a-4c62-a2d4-0fb3557ba493")
+		)
+		(pin "1"
+			(uuid "6b6c013c-d3f2-4360-b7e7-51d95b739259")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 83.82 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb06a677-ddd5-4b65-b1c3-67b34f4c6151")
+		(property "Reference" "C44"
+			(at 82.042 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 82.042 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35e5ca50-cd5f-42e1-a03e-78c5ba4f1dd5")
+		)
+		(pin "1"
+			(uuid "13417b94-f1b1-4e8c-ad63-9fde436b2996")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 77.47 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef909a19-ed81-4bec-a1f1-97084cb70d00")
+		(property "Reference" "LED11"
+			(at 77.724 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 77.47 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 78.74 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 80.01 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 77.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "587bad44-59fa-4d13-b2df-8e4d5e1b5c9f")
+		)
+		(pin "1"
+			(uuid "bfbe7648-a273-42ee-86f9-6697e0a185da")
+		)
+		(pin "2"
+			(uuid "e5fc72e0-6fa5-45e9-833a-e13991b485b8")
+		)
+		(pin "3"
+			(uuid "9beb6936-351a-44ac-93d1-e9cb2244c578")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2003530-a13a-4e8e-87fe-94d3fc9774ae")
+		(property "Reference" "#PWR035"
+			(at 31.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80bb8eb3-69a9-4022-99b9-edaeee6cec6e")
+		)
+		(instances
+			(project ""
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 77.47 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcc204e9-7f84-4847-9af4-ca60245cdc48")
+		(property "Reference" "LED3"
+			(at 77.724 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 77.47 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 78.74 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 80.01 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 77.47 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3bb63d79-0a91-4636-9edd-c80afe27543d")
+		)
+		(pin "1"
+			(uuid "2c809181-cc26-448b-b13e-f2f1131c059f")
+		)
+		(pin "2"
+			(uuid "c98e0d7b-b59a-42cf-9922-0c053fe3268e")
+		)
+		(pin "3"
+			(uuid "d7b7cf47-fbaa-4f5a-b340-e65d866607e4")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdf9ba56-98b6-42bf-a738-be34ce6124ad")
+		(property "Reference" "#PWR036"
+			(at 31.75 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "157e2c90-75bc-452e-a99f-c7775ab9d07f")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 83.82 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff3afb53-5c69-4288-be72-6c086c1680c1")
+		(property "Reference" "C36"
+			(at 82.042 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 82.042 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 83.82 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 83.82 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa8caff2-8cde-4ed0-8a74-3d9ca691429a")
+		)
+		(pin "1"
+			(uuid "82d453ed-c953-4def-94a4-e8bcf68676bf")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c/6ab4117a-4b83-48bd-856e-f7bdd0e83adb"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
