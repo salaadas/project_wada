@@ -1996,150 +1996,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start 1.524 1.27)
-					(mid 0 1.778)
-					(end -1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MCU_ST_STM32F0:STM32F072C8Tx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5693,6 +5549,139 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -6157,6 +6146,12 @@
 		(uuid "436b2ea7-417d-4614-a508-7e569956271e")
 	)
 	(junction
+		(at 367.03 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "495d825d-b6c4-4802-8049-432718d9c6e4")
+	)
+	(junction
 		(at 107.95 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6197,6 +6192,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62cf7624-2329-48ab-a4e0-9d5b17dc249d")
+	)
+	(junction
+		(at 367.03 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6877642e-226e-4a30-8a9d-1352e7fa3404")
 	)
 	(junction
 		(at 516.89 38.1)
@@ -7052,16 +7053,6 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 74.93) (xy 359.41 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25bb14c8-b214-4123-9211-788a770a9490")
-	)
-	(wire
-		(pts
 			(xy 435.61 80.01) (xy 439.42 80.01)
 		)
 		(stroke
@@ -7199,6 +7190,16 @@
 			(type default)
 		)
 		(uuid "2f9ca88a-518b-4d9c-bde7-f0db69f5592b")
+	)
+	(wire
+		(pts
+			(xy 377.19 64.77) (xy 377.19 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3007fcbf-613a-4319-8787-34ab8b32c08f")
 	)
 	(wire
 		(pts
@@ -7349,6 +7350,16 @@
 			(type default)
 		)
 		(uuid "374d6339-3235-448d-aab2-840d8c469035")
+	)
+	(wire
+		(pts
+			(xy 367.03 73.66) (xy 367.03 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387480e6-2b41-40a4-bed4-e160cec32a56")
 	)
 	(wire
 		(pts
@@ -7912,6 +7923,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 77.47) (xy 367.03 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad454de-81ce-4e2f-aa79-a563308a013b")
+	)
+	(wire
+		(pts
 			(xy 118.11 86.36) (xy 105.41 86.36)
 		)
 		(stroke
@@ -7959,6 +7980,16 @@
 			(type default)
 		)
 		(uuid "5baa9593-3363-403d-949b-b398684cebe1")
+	)
+	(wire
+		(pts
+			(xy 367.03 77.47) (xy 367.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c28821c-6683-4fef-9106-a258e7540c7a")
 	)
 	(wire
 		(pts
@@ -8069,6 +8100,16 @@
 			(type default)
 		)
 		(uuid "61dca112-7a53-4db4-8e01-7d7f13260f51")
+	)
+	(wire
+		(pts
+			(xy 365.76 64.77) (xy 367.03 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ae9470-f29e-4e26-9c28-e22a656e3592")
 	)
 	(wire
 		(pts
@@ -9052,16 +9093,6 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 83.82) (xy 359.41 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaf6bc93-2606-4d60-acfd-f253a3f2f49c")
-	)
-	(wire
-		(pts
 			(xy 435.61 52.07) (xy 439.42 52.07)
 		)
 		(stroke
@@ -9312,6 +9343,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 64.77) (xy 367.03 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd208a29-cf7b-45c9-add6-f24ca9955283")
+	)
+	(wire
+		(pts
 			(xy 556.26 44.45) (xy 556.26 45.72)
 		)
 		(stroke
@@ -9539,6 +9580,16 @@
 			(type default)
 		)
 		(uuid "d0650cc2-653b-4959-af61-da41033b5f9f")
+	)
+	(wire
+		(pts
+			(xy 367.03 64.77) (xy 377.19 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d071304e-08d8-4ab8-a50b-5f6e0c8b1d3d")
 	)
 	(wire
 		(pts
@@ -10109,6 +10160,16 @@
 			(type default)
 		)
 		(uuid "fbcfa434-a0c4-4bf8-992b-f6e6d0ed341b")
+	)
+	(wire
+		(pts
+			(xy 377.19 76.2) (xy 377.19 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbffda47-7960-4e4d-9730-138cc35e7bd2")
 	)
 	(wire
 		(pts
@@ -10812,17 +10873,6 @@
 			(justify left bottom)
 		)
 		(uuid "b2f1fc92-a317-443b-b406-0539ef0eae59")
-	)
-	(text "Reset pullup"
-		(exclude_from_sim no)
-		(at 361.95 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bcf2f451-c267-45a8-8381-6fa775434754")
 	)
 	(text "for the main USB-C"
 		(exclude_from_sim no)
@@ -11772,28 +11822,6 @@
 			)
 		)
 	)
-	(global_label "NRST"
-		(shape output)
-		(at 359.41 83.82 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "164997d7-e9bc-460a-99cc-3ddd164e5e52")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.41 91.5828 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D_USB1+"
 		(shape bidirectional)
 		(at 275.59 60.96 0)
@@ -12542,28 +12570,6 @@
 			)
 		)
 	)
-	(global_label "STM32_3V3"
-		(shape input)
-		(at 359.41 74.93 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7005c120-e766-4909-895e-5ddc1108e200")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.41 61.4221 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BOOT0"
 		(shape output)
 		(at 364.49 121.92 0)
@@ -12956,6 +12962,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NRST"
+		(shape input)
+		(at 365.76 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b98225e8-f0e2-4bf9-94e4-646494726b0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 357.9972 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -16490,6 +16518,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 377.19 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84446f50-b598-4d97-b789-e09c89cabb23")
+		(property "Reference" "RESET_SW1"
+			(at 379.73 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 379.73 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+			(at 377.19 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 377.19 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58f6e127-4d35-49c9-9aac-87fdfa6cf85c")
+		)
+		(pin "2"
+			(uuid "a6012873-e4d0-414b-9882-6bcd837f5cf3")
+		)
+		(instances
+			(project ""
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c"
+					(reference "RESET_SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 316.23 185.42 0)
 		(unit 1)
@@ -16619,6 +16717,72 @@
 			(project "wada_pcb_60"
 				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 367.03 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cb44af2-2c9f-4788-9f59-ead52e49be93")
+		(property "Reference" "#PWR040"
+			(at 367.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 367.03 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 367.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f67017b1-b87f-48da-812e-aff2a1a94ee1")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -17027,6 +17191,75 @@
 			(project "wada_pcb_60"
 				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 367.03 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "920ec296-372e-44e5-8258-da87cde06046")
+		(property "Reference" "C47"
+			(at 365.125 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 365.125 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 367.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 367.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 367.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "813a2b12-dac0-4e61-a879-7dcc40d229be")
+		)
+		(pin "2"
+			(uuid "e36273c1-7df9-4249-bf80-f8fdb9bc2548")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -17806,6 +18039,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 359.41 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa3dd862-0476-4737-b7c1-0bd2ca2d37d9")
+		(property "Reference" "BOOT_SW1"
+			(at 361.95 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 361.95 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+			(at 359.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 359.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0755b45b-db06-422d-bde8-3f7c21b6712c")
+		)
+		(pin "2"
+			(uuid "c631df71-507b-4a72-bf6a-3868cd950d47")
+		)
+		(instances
+			(project "wada_pcb_60"
+				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c"
+					(reference "BOOT_SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 374.65 46.99 0)
 		(unit 1)
@@ -18280,75 +18583,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 359.41 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bce491d1-be3e-49bc-9d33-1a341cbfd1e8")
-		(property "Reference" "R5"
-			(at 360.68 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kR"
-			(at 360.68 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 359.41 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 359.41 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 359.41 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a944122-3efa-4e9f-99a5-5730ae68caa8")
-		)
-		(pin "2"
-			(uuid "87ffcc82-1c5c-422d-95b5-aa92606f9499")
-		)
-		(instances
-			(project "wada_pcb_60"
-				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 316.23 63.5 0)
 		(unit 1)
@@ -18412,76 +18646,6 @@
 			(project "wada_pcb_60"
 				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 359.41 115.57 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3ba8464-dfbf-468e-b62a-8562ca980333")
-		(property "Reference" "JP1"
-			(at 361.95 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BOOT0"
-			(at 361.95 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 359.41 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 359.41 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 359.41 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e57b771e-64dc-4a71-8721-b68ddf4a817d")
-		)
-		(pin "1"
-			(uuid "0dfb4a6e-0483-4217-9b71-9cac6ccaf61c")
-		)
-		(instances
-			(project "wada_pcb_60"
-				(path "/4cd15e3a-9d73-4b27-9915-63e0e50a4d3c"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
