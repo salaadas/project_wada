@@ -1,4 +1,4 @@
-24785165667429385
+24788640654476686
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62257,6 +62257,20 @@ solder jumper open
 0
 5
 3
+Keyboard_Logo
+KB_LOGO
+
+
+0
+0
+0
+LED_SK6812MINI_HS
+LED_SK6812MINI_HAND_SOLDER_3.5x3.5mm_P1.75mm
+3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
+LED RGB NeoPixel Mini PLCC-4 3535
+0
+4
+4
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf

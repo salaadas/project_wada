@@ -2090,7 +2090,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SK6812MINI_HS:LED_SK6812MINI_HAND_SOLDER_3.5x3.5mm_P1.75mm"
 			(at 139.7 121.92 0)
 			(effects
 				(font
@@ -2166,7 +2166,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SK6812MINI_HS:LED_SK6812MINI_HAND_SOLDER_3.5x3.5mm_P1.75mm"
 			(at 93.98 82.55 0)
 			(effects
 				(font
@@ -2242,7 +2242,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SK6812MINI_HS:LED_SK6812MINI_HAND_SOLDER_3.5x3.5mm_P1.75mm"
 			(at 48.26 121.92 0)
 			(effects
 				(font
@@ -2387,7 +2387,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SK6812MINI_HS:LED_SK6812MINI_HAND_SOLDER_3.5x3.5mm_P1.75mm"
 			(at 109.22 82.55 0)
 			(effects
 				(font
@@ -2463,7 +2463,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SK6812MINI_HS:LED_SK6812MINI_HAND_SOLDER_3.5x3.5mm_P1.75mm"
 			(at 63.5 121.92 0)
 			(effects
 				(font
@@ -2673,7 +2673,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SK6812MINI_HS:LED_SK6812MINI_HAND_SOLDER_3.5x3.5mm_P1.75mm"
 			(at 93.98 121.92 0)
 			(effects
 				(font
@@ -2818,7 +2818,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SK6812MINI_HS:LED_SK6812MINI_HAND_SOLDER_3.5x3.5mm_P1.75mm"
 			(at 154.94 82.55 0)
 			(effects
 				(font
@@ -2894,7 +2894,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SK6812MINI_HS:LED_SK6812MINI_HAND_SOLDER_3.5x3.5mm_P1.75mm"
 			(at 124.46 82.55 0)
 			(effects
 				(font
@@ -3246,7 +3246,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SK6812MINI_HS:LED_SK6812MINI_HAND_SOLDER_3.5x3.5mm_P1.75mm"
 			(at 109.22 121.92 0)
 			(effects
 				(font
@@ -3456,7 +3456,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SK6812MINI_HS:LED_SK6812MINI_HAND_SOLDER_3.5x3.5mm_P1.75mm"
 			(at 48.26 82.55 0)
 			(effects
 				(font
@@ -3739,7 +3739,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SK6812MINI_HS:LED_SK6812MINI_HAND_SOLDER_3.5x3.5mm_P1.75mm"
 			(at 124.46 121.92 0)
 			(effects
 				(font
@@ -4026,7 +4026,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SK6812MINI_HS:LED_SK6812MINI_HAND_SOLDER_3.5x3.5mm_P1.75mm"
 			(at 63.5 82.55 0)
 			(effects
 				(font
@@ -4171,7 +4171,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SK6812MINI_HS:LED_SK6812MINI_HAND_SOLDER_3.5x3.5mm_P1.75mm"
 			(at 154.94 121.92 0)
 			(effects
 				(font
@@ -4312,7 +4312,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SK6812MINI_HS:LED_SK6812MINI_HAND_SOLDER_3.5x3.5mm_P1.75mm"
 			(at 139.7 82.55 0)
 			(effects
 				(font
@@ -4526,7 +4526,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SK6812MINI_HS:LED_SK6812MINI_HAND_SOLDER_3.5x3.5mm_P1.75mm"
 			(at 78.74 121.92 0)
 			(effects
 				(font
@@ -4667,7 +4667,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SK6812MINI_HS:LED_SK6812MINI_HAND_SOLDER_3.5x3.5mm_P1.75mm"
 			(at 78.74 82.55 0)
 			(effects
 				(font
