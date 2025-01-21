@@ -1,4 +1,4 @@
-24783428193465790
+24785165667429385
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62103,6 +62103,13 @@ THT
 0
 4
 2
+JING_USB-A
+JING 903-231A2031S10100
+
+
+0
+6
+5
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips

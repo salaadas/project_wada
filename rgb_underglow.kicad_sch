@@ -312,14 +312,14 @@
 				)
 			)
 		)
-		(symbol "PCM_marbastlib-various:WS2812_2020"
+		(symbol "LED:SK6812MINI"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "LED"
+			(property "Reference" "D"
 				(at 5.08 5.715 0)
 				(effects
 					(font
@@ -328,7 +328,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "WS2812_2020"
+			(property "Value" "SK6812MINI"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -337,7 +337,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -347,7 +347,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 				(at 2.54 -9.525 0)
 				(effects
 					(font
@@ -357,7 +357,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(property "Description" "RGB LED with integrated controller"
 				(at 0 0 0)
 				(effects
 					(font
@@ -366,7 +366,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "RGB LED NeoPixel Mini addressable 2020"
+			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
 				(at 0 0 0)
 				(effects
 					(font
@@ -384,7 +384,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "WS2812_2020_0_0"
+			(symbol "SK6812MINI_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -394,7 +394,7 @@
 					)
 				)
 			)
-			(symbol "WS2812_2020_0_1"
+			(symbol "SK6812MINI_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -3.556) (xy 1.778 -3.556)
@@ -491,7 +491,7 @@
 					)
 				)
 			)
-			(symbol "WS2812_2020_1_1"
+			(symbol "SK6812MINI_1_1"
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
@@ -2065,7 +2065,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(lib_id "LED:SK6812MINI")
 		(at 138.43 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2081,15 +2081,16 @@
 				)
 			)
 		)
-		(property "Value" "WS2812_2020"
-			(at 138.43 103.886 0)
+		(property "Value" "SK6812MINI"
+			(at 139.7 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 139.7 121.92 0)
 			(effects
 				(font
@@ -2099,7 +2100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 			(at 140.97 123.825 0)
 			(effects
 				(font
@@ -2109,7 +2110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+		(property "Description" "RGB LED with integrated controller"
 			(at 138.43 114.3 0)
 			(effects
 				(font
@@ -2140,7 +2141,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(lib_id "LED:SK6812MINI")
 		(at 92.71 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2156,15 +2157,16 @@
 				)
 			)
 		)
-		(property "Value" "WS2812_2020"
-			(at 92.71 64.516 0)
+		(property "Value" "SK6812MINI"
+			(at 93.98 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 93.98 82.55 0)
 			(effects
 				(font
@@ -2174,7 +2176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 			(at 95.25 84.455 0)
 			(effects
 				(font
@@ -2184,7 +2186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+		(property "Description" "RGB LED with integrated controller"
 			(at 92.71 74.93 0)
 			(effects
 				(font
@@ -2215,7 +2217,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(lib_id "LED:SK6812MINI")
 		(at 46.99 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2231,15 +2233,16 @@
 				)
 			)
 		)
-		(property "Value" "WS2812_2020"
-			(at 46.99 103.886 0)
+		(property "Value" "SK6812MINI"
+			(at 48.26 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 48.26 121.92 0)
 			(effects
 				(font
@@ -2249,7 +2252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 			(at 49.53 123.825 0)
 			(effects
 				(font
@@ -2259,7 +2262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+		(property "Description" "RGB LED with integrated controller"
 			(at 46.99 114.3 0)
 			(effects
 				(font
@@ -2359,7 +2362,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(lib_id "LED:SK6812MINI")
 		(at 107.95 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2375,15 +2378,16 @@
 				)
 			)
 		)
-		(property "Value" "WS2812_2020"
-			(at 107.95 64.516 0)
+		(property "Value" "SK6812MINI"
+			(at 109.22 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 109.22 82.55 0)
 			(effects
 				(font
@@ -2393,7 +2397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 			(at 110.49 84.455 0)
 			(effects
 				(font
@@ -2403,7 +2407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+		(property "Description" "RGB LED with integrated controller"
 			(at 107.95 74.93 0)
 			(effects
 				(font
@@ -2434,7 +2438,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(lib_id "LED:SK6812MINI")
 		(at 62.23 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2450,15 +2454,16 @@
 				)
 			)
 		)
-		(property "Value" "WS2812_2020"
-			(at 62.23 103.886 0)
+		(property "Value" "SK6812MINI"
+			(at 63.5 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 63.5 121.92 0)
 			(effects
 				(font
@@ -2468,7 +2473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 			(at 64.77 123.825 0)
 			(effects
 				(font
@@ -2478,7 +2483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+		(property "Description" "RGB LED with integrated controller"
 			(at 62.23 114.3 0)
 			(effects
 				(font
@@ -2643,7 +2648,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(lib_id "LED:SK6812MINI")
 		(at 92.71 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2659,15 +2664,16 @@
 				)
 			)
 		)
-		(property "Value" "WS2812_2020"
-			(at 92.71 103.886 0)
+		(property "Value" "SK6812MINI"
+			(at 93.98 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 93.98 121.92 0)
 			(effects
 				(font
@@ -2677,7 +2683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 			(at 95.25 123.825 0)
 			(effects
 				(font
@@ -2687,7 +2693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+		(property "Description" "RGB LED with integrated controller"
 			(at 92.71 114.3 0)
 			(effects
 				(font
@@ -2787,7 +2793,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(lib_id "LED:SK6812MINI")
 		(at 153.67 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2803,15 +2809,16 @@
 				)
 			)
 		)
-		(property "Value" "WS2812_2020"
-			(at 153.67 64.516 0)
+		(property "Value" "SK6812MINI"
+			(at 154.94 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 154.94 82.55 0)
 			(effects
 				(font
@@ -2821,7 +2828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 			(at 156.21 84.455 0)
 			(effects
 				(font
@@ -2831,7 +2838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+		(property "Description" "RGB LED with integrated controller"
 			(at 153.67 74.93 0)
 			(effects
 				(font
@@ -2862,7 +2869,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(lib_id "LED:SK6812MINI")
 		(at 123.19 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2878,15 +2885,16 @@
 				)
 			)
 		)
-		(property "Value" "WS2812_2020"
-			(at 123.19 64.516 0)
+		(property "Value" "SK6812MINI"
+			(at 124.46 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 124.46 82.55 0)
 			(effects
 				(font
@@ -2896,7 +2904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 			(at 125.73 84.455 0)
 			(effects
 				(font
@@ -2906,7 +2914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+		(property "Description" "RGB LED with integrated controller"
 			(at 123.19 74.93 0)
 			(effects
 				(font
@@ -3213,7 +3221,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(lib_id "LED:SK6812MINI")
 		(at 107.95 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3229,15 +3237,16 @@
 				)
 			)
 		)
-		(property "Value" "WS2812_2020"
-			(at 107.95 103.886 0)
+		(property "Value" "SK6812MINI"
+			(at 109.22 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 109.22 121.92 0)
 			(effects
 				(font
@@ -3247,7 +3256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 			(at 110.49 123.825 0)
 			(effects
 				(font
@@ -3257,7 +3266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+		(property "Description" "RGB LED with integrated controller"
 			(at 107.95 114.3 0)
 			(effects
 				(font
@@ -3422,7 +3431,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(lib_id "LED:SK6812MINI")
 		(at 46.99 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3438,15 +3447,16 @@
 				)
 			)
 		)
-		(property "Value" "WS2812_2020"
-			(at 46.99 64.516 0)
+		(property "Value" "SK6812MINI"
+			(at 48.26 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 48.26 82.55 0)
 			(effects
 				(font
@@ -3456,7 +3466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 			(at 49.53 84.455 0)
 			(effects
 				(font
@@ -3466,7 +3476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+		(property "Description" "RGB LED with integrated controller"
 			(at 46.99 74.93 0)
 			(effects
 				(font
@@ -3704,7 +3714,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(lib_id "LED:SK6812MINI")
 		(at 123.19 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3720,15 +3730,16 @@
 				)
 			)
 		)
-		(property "Value" "WS2812_2020"
-			(at 123.19 103.886 0)
+		(property "Value" "SK6812MINI"
+			(at 124.46 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 124.46 121.92 0)
 			(effects
 				(font
@@ -3738,7 +3749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 			(at 125.73 123.825 0)
 			(effects
 				(font
@@ -3748,7 +3759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+		(property "Description" "RGB LED with integrated controller"
 			(at 123.19 114.3 0)
 			(effects
 				(font
@@ -3990,7 +4001,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(lib_id "LED:SK6812MINI")
 		(at 62.23 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4006,15 +4017,16 @@
 				)
 			)
 		)
-		(property "Value" "WS2812_2020"
-			(at 62.23 64.516 0)
+		(property "Value" "SK6812MINI"
+			(at 63.5 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 63.5 82.55 0)
 			(effects
 				(font
@@ -4024,7 +4036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 			(at 64.77 84.455 0)
 			(effects
 				(font
@@ -4034,7 +4046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+		(property "Description" "RGB LED with integrated controller"
 			(at 62.23 74.93 0)
 			(effects
 				(font
@@ -4134,7 +4146,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(lib_id "LED:SK6812MINI")
 		(at 153.67 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4150,15 +4162,16 @@
 				)
 			)
 		)
-		(property "Value" "WS2812_2020"
-			(at 153.67 103.886 0)
+		(property "Value" "SK6812MINI"
+			(at 154.94 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 154.94 121.92 0)
 			(effects
 				(font
@@ -4168,7 +4181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 			(at 156.21 123.825 0)
 			(effects
 				(font
@@ -4178,7 +4191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+		(property "Description" "RGB LED with integrated controller"
 			(at 153.67 114.3 0)
 			(effects
 				(font
@@ -4274,7 +4287,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(lib_id "LED:SK6812MINI")
 		(at 138.43 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4290,15 +4303,16 @@
 				)
 			)
 		)
-		(property "Value" "WS2812_2020"
-			(at 138.43 64.516 0)
+		(property "Value" "SK6812MINI"
+			(at 139.7 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 139.7 82.55 0)
 			(effects
 				(font
@@ -4308,7 +4322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 			(at 140.97 84.455 0)
 			(effects
 				(font
@@ -4318,7 +4332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+		(property "Description" "RGB LED with integrated controller"
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -4487,7 +4501,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(lib_id "LED:SK6812MINI")
 		(at 77.47 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4503,15 +4517,16 @@
 				)
 			)
 		)
-		(property "Value" "WS2812_2020"
-			(at 77.47 103.886 0)
+		(property "Value" "SK6812MINI"
+			(at 78.74 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 78.74 121.92 0)
 			(effects
 				(font
@@ -4521,7 +4536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 			(at 80.01 123.825 0)
 			(effects
 				(font
@@ -4531,7 +4546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+		(property "Description" "RGB LED with integrated controller"
 			(at 77.47 114.3 0)
 			(effects
 				(font
@@ -4627,7 +4642,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(lib_id "LED:SK6812MINI")
 		(at 77.47 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4643,15 +4658,16 @@
 				)
 			)
 		)
-		(property "Value" "WS2812_2020"
-			(at 77.47 64.516 0)
+		(property "Value" "SK6812MINI"
+			(at 78.74 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 78.74 82.55 0)
 			(effects
 				(font
@@ -4661,7 +4677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 			(at 80.01 84.455 0)
 			(effects
 				(font
@@ -4671,7 +4687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+		(property "Description" "RGB LED with integrated controller"
 			(at 77.47 74.93 0)
 			(effects
 				(font

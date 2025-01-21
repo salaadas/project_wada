@@ -17492,7 +17492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cipulot_parts:USB-SMT-04F-S1-B1-R9A"
+		(property "Footprint" "JING_USB-A:JING 903-231A2031S10100"
 			(at 97.79 213.36 0)
 			(effects
 				(font
@@ -19377,7 +19377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cipulot_parts:USB-SMT-04F-S1-B1-R9A"
+		(property "Footprint" "JING_USB-A:JING 903-231A2031S10100"
 			(at 35.56 213.36 0)
 			(effects
 				(font
